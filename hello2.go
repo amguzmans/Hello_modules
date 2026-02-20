@@ -1,0 +1,10 @@
+package Hello_modules
+
+import (
+	"fmt"
+)
+
+func Hello2(name string) string {
+	message := fmt.Sprintf("Hello, %v form hello2", name)
+	return message
+}
